@@ -200,12 +200,14 @@ Agent skills for magpie users, in `skills/<name>/SKILL.md`.
 |---|---|
 | [magpie-setup](skills/magpie-setup) | Lets an agent set magpie up as the user asks, through its own `magpie` commands: keys and subscriptions, an agent's model, routing groups with fallbacks and time-of-day rules, gateway keys with budgets, and MCP servers and instructions shared with every agent |
 | [magpie-quota](skills/magpie-quota) | Lets an agent check what is left of every subscription, coding plan and key balance magpie has (`magpie quota --json`), and wait for allowance to come back |
+| [research-roundtable](skills/research-roundtable) | Structured proposer/reviewer research debates between local agents, with a dependency-free Python channel, evidence labels, bounded rounds and human decision points; adapted from [Junfei-Z/research-roundtable](https://github.com/Junfei-Z/research-roundtable) |
 
 In magpie, they are first under Library › Market › Skills. Elsewhere:
 
 ```sh
 npx skills add magpie-community/plugins --skill magpie-setup
 npx skills add magpie-community/plugins --skill magpie-quota
+npx skills add magpie-community/plugins --skill research-roundtable
 ```
 
 ## Use
